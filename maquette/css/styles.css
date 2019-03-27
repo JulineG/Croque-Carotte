@@ -1,0 +1,108 @@
+body {
+
+    background-color: white;
+}
+
+header,
+#menu,
+main,
+footer {
+    padding: 1em 0;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    height: 20%;
+}
+
+header img{
+	width: 100px;
+}
+
+#centre {
+	height:70%;
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+	margin-left: 3%;
+
+}
+
+#menu {
+    width: 12%;
+    background-color: white;
+    padding-left: 1em;
+    line-height: 2em;
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+#menu a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+main {
+    width:70%;
+    background-color: lightgrey;
+    padding: 1em;
+}
+
+footer {
+	position: relative;
+	bottom:0;
+    background-color: white;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    clear: both;
+    height:3%;
+	width: 100%;
+}
+
+.vide{	
+	background-image: url("../images/herbe.png");
+	background-size: contain;
+  	width: 70px;
+ 	height: 70px;
+ 	padding: 0;
+}
+
+.dalle{
+	background-image: url("../images/dalle.png");
+	background-size: contain;
+  	width: 70px;
+ 	height: 70px;
+ 	padding: 0;
+}
+
+.carotte{
+	background-image: url("../images/carotte.png");
+	background-size: contain;
+  	width: 70px;
+ 	height: 70px;
+ 	padding: 0;
+}
+
+.trou{	
+	background-image: url("../images/trou.png");
+	background-size: contain;
+  	width: 70px;
+ 	height: 70px;
+ 	padding: 0;
+}
+
+.Pion{
+	width: 50px;
+ 	height: 50px;
+}
+
+.pioche{
+	width: 100px;
+ 	height: 200px;
+	
+
